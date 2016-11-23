@@ -9,7 +9,9 @@ So, you are given the task to assign each candidate to each company such that th
     Candidatei prefers companyy more than companyj and
     Companyy prefers candidatei more than candidatex.
 
-As there can be many solutions, any valid one will do.
+As there can be many solutions, any valid one will do.  
+
+
 Input
 
 Input starts with an integer T (≤ 30), denoting the number of test cases.
@@ -19,7 +21,9 @@ Each case starts with a line containing an integer n (1 ≤ n ≤ 100). The cand
 Each of the next n lines contains n distinct integers from n+1 to 2n, where the ith line contains the company preference for the ith candidate (1 ≤ i ≤ n).
 
 Each of the next n lines contains n distinct integers from 1 to n, where the ith line contains the candidate preference for the company which is denoted by n+i (1 ≤ i ≤ n).
-Output
+
+
+Output  
 
 For each case, print the case number and the (candidate, company) pairs. As there can be many solutions any valid one will do. And you can output the pairs in any order but print those as (candidate, company) pair.
 
